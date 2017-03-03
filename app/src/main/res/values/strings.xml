@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Meme Quiz</string>
+    <string name="title_activity_meme_select">memeSelect</string>
+    <string name="toast1">"Please answer question "</string>
+    <string name="result">"Question "</string>
+    <string name="trueAnswer">" is correct"</string>
+    <string name="falseAnswer">" is wrong"</string>
+    <string name="button1">Y U NO START</string>
+    <string name="title">"Find the name of the Memes"</string>
+    <string name="badLuck">"Bad Luck Brian"</string>
+    <string name="peter">"Unlucky Peter"</string>
+    <string name="george">"Unlucky George"</string>
+    <string name="kid">"Bud Luck Kid</string>
+    <string name="firstWorld">"First World Problems</string>
+    <string name="description">"MEME"</string>
+    <string name="crying">"Crying Girl"</string>
+    <string name="thirdWorld">"Third World Problems</string>
+    <string name="sad">"Sad Woman"</string>
+    <string name="teen">"Teenager"</string>
+    <string name="steve">"Scumbag Steve"</string>
+    <string name="scum">"Scum Boy"</string>
+    <string name="hut">"Guy with Hut"</string>
+    <string name="submit">"submit answers"</string>
+    <string name="results">"Results"</string>
+    <string name="reset">"reset results"</string>
+    <string name="overly">"Overly Attached Girlfriend"</string>
+    <string name="girl">"Nice Girl"</string>
+    <string name="eyes">"Wide-eyed Girl"</string>
+    <string name="crazy">"Crazy Girlfriend"</string>
+    <string name="programmer">"Programmer Kid"</string>
+    <string name="virus">"doesn't know about virus Kid"</string>
+    <string name="first_day">"First day on the internet Kid"</string>
+    <string name="surf">"Surfing on the internet Kid"</string>
+    <string name="well_done">"Well Done"</string>
+    <string name="answer">"You have correctly answered "</string>
+    <string name="answers">" out of 5 questions, please try again"</string>
+
+</resources>
