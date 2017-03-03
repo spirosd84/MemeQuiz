@@ -1,38 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.memequiz.MainActivity">
+    android:fillViewport="true">
 
-    <TextView
+    <LinearLayout
+        android:id="@+id/activity_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#3F51B5"
-        android:fontFamily="sans-serif-light"
-        android:text="@string/app_name"
-        android:textAlignment="center"
-        android:textSize="56sp" />
+        android:orientation="vertical"
+        tools:context="com.example.android.memequiz.MainActivity"
+        android:background="#FFFFFF">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="16dp"
-        android:adjustViewBounds="true"
-        android:contentDescription="@string/description"
-        android:cropToPadding="false"
-        android:src="@drawable/no" />
+        <TextView
+            android:id="@+id/meme_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3F51B5"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textSize="56sp" />
 
-    <Button
-        android:id="@+id/start_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="16dp"
-        android:background="@drawable/gradient"
-        android:text="@string/button1"
-        android:textSize="34sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="24dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/description"
+            android:src="@drawable/no" />
 
-</RelativeLayout>
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:background="@drawable/gradient"
+            android:text="@string/button1"
+            android:textSize="34sp" />
+
+    </LinearLayout>
+</ScrollView>
