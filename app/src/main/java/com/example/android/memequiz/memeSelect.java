@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.ScrollView;
@@ -95,7 +96,7 @@ public class memeSelect extends AppCompatActivity {
         // make the results view visible
         ScrollView questions = (ScrollView) findViewById(R.id.questions);
         questions.setVisibility(View.GONE);
-        ScrollView results = (ScrollView) findViewById(R.id.results);
+        LinearLayout results = (LinearLayout) findViewById(R.id.results);
         results.setVisibility(View.VISIBLE);
 
         // display toast message for the summary of answered questions
